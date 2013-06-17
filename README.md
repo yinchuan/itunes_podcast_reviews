@@ -1,6 +1,10 @@
 itunes_podcast_reviews
 ======================
 
-一个可以从itunes上拉取podcast评论信息的wordpress插件。
+a wordpress plung to display listener's, pull infomation from iTunes, display as a sidebar widget.
 
-需要安装simple_http_dom.php。
+powered by simple_http_dom.php.
+
+[hwo to use simple_http_dom][1] to parse html in a jQuery flavor.
+
+[1]: http://www.cnphp.info/php-simple-html-dom-parser-intro.html
