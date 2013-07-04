@@ -35,6 +35,7 @@ function get_html($podcast_id) {
     curl_setopt($curl_handler, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($curl_handler, CURLOPT_SSL_VERIFYPEER, 0);
     curl_setopt($curl_handler, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($curl_handler, CURLOPT_FOLLOWLOCATION, true);
     $body = curl_exec($curl_handler);
     curl_close($curl_handler);
 
